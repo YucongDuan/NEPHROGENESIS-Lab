@@ -1,0 +1,11 @@
+{
+  "experiment": "transport",
+  "parameters": {
+    "excreted_mmol_min": 0.1,
+    "low_filtered_mmol_min": 8.0,
+    "high_filtered_mmol_min": 16.0,
+    "active_fraction": 0.6
+  },
+  "software_version": "1.0.0",
+  "code_digest": "08e5b63cebb46e0581a377f8add619cc02025f9487a17be0cdf0bc2ce73bc542"
+}

@@ -1,0 +1,5 @@
+{
+  "controller": "delayed",
+  "delay_min": 30,
+  "seed": 98
+}

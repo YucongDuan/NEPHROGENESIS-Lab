@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NEPHROGENESIS outer execution request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "experiment"
+  ],
+  "properties": {
+    "experiment": {
+      "enum": [
+        "balance",
+        "physical-budget",
+        "membrane",
+        "geometry",
+        "habitats",
+        "branching",
+        "filtration",
+        "transport",
+        "concentration",
+        "acid",
+        "signal",
+        "memory",
+        "repair",
+        "replacement",
+        "identifiability",
+        "energy-information",
+        "scales",
+        "evidence",
+        "ablation",
+        "hypothesis",
+        "uncertainty",
+        "viability",
+        "dynamics",
+        "calibration"
+      ]
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Validated by the selected Python experiment contract; this schema checks only the outer shape."
+    }
+  }
+}

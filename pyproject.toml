@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nephrogenesis-lab"
+version = "1.0.0"
+description = "Executable energy-information kidney-history research companion"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "NEPHROGENESIS-Lab contributors"}]
+dependencies = []
+
+[project.scripts]
+nephrogenesis = "nephrogenesis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["nephrogenesis*"]
+
+[tool.setuptools.package-data]
+nephrogenesis = ["data/*.json", "static/*.html", "static/*.css", "static/*.js"]
+
+[project.urls]
+Repository = "https://github.com/YucongDuan/NEPHROGENESIS-Lab"
+Documentation = "https://github.com/YucongDuan/NEPHROGENESIS-Lab/blob/main/GETTING_STARTED.md"
+Issues = "https://github.com/YucongDuan/NEPHROGENESIS-Lab/issues"

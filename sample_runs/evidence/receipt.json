@@ -1,0 +1,13 @@
+{
+  "format": "nephrogenesis-run-v1",
+  "code_digest": "08e5b63cebb46e0581a377f8add619cc02025f9487a17be0cdf0bc2ce73bc542",
+  "ledger_head": "a4a21828709ccfe3eee8c8331edce7c901d1bc821b149d1d5ec406b74bb9ec35",
+  "files": {
+    "protocol.json": "b54af07da34ea7c9ad198e8c2259b29b812035d75bd555b2bbecb1db6ea66a88",
+    "result.json": "ee7f156b3a1d21f626e1212239ad90719abdbf94ec0e753b8eb17aa0905762a3",
+    "ledger.jsonl": "2e2f926a88596d2f4e379c0ad21f18cd8935f43b42aa457721f3ad87ae1db706",
+    "report.html": "17de2d2a3a1753674e1a0a650d17c7f087aea022c5a9c0e7b5e46981d54f6d30",
+    "table.csv": "0343825b2942de4337df3f17c35b36306f9a795990b12a70a1aee81f78dc7bb7"
+  },
+  "trust_model": "Local unkeyed hashes; external preservation of receipt digest is needed against complete rewriting."
+}

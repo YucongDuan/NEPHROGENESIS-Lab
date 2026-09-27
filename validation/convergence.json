@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "dt_min": 1.0,
+      "maximum_water_residual_L": 9.2148511043888e-15,
+      "maximum_sodium_residual_mmol": 1.0906830993917538e-12,
+      "maximum_urea_residual_mmol": 8.79296635503124e-14,
+      "coupled_energy_J": 60078.8250839933,
+      "mean_coupled_power_W": 2.7814270872219122,
+      "declared_box_time_fraction": 1.0,
+      "budget_limited_steps": 0,
+      "final_volume_L": 14.094560705053325,
+      "final_sodium_mmol_L": 140.76216255942808
+    },
+    {
+      "dt_min": 0.5,
+      "maximum_water_residual_L": 3.11972669919669e-14,
+      "maximum_sodium_residual_mmol": 9.983125437429408e-13,
+      "maximum_urea_residual_mmol": 3.552713678800501e-13,
+      "coupled_energy_J": 60078.923053146755,
+      "mean_coupled_power_W": 2.781431622830868,
+      "declared_box_time_fraction": 1.0,
+      "budget_limited_steps": 0,
+      "final_volume_L": 14.094606945346186,
+      "final_sodium_mmol_L": 140.76095336922947
+    },
+    {
+      "dt_min": 0.25,
+      "maximum_water_residual_L": 3.11972669919669e-14,
+      "maximum_sodium_residual_mmol": 5.03774799653911e-12,
+      "maximum_urea_residual_mmol": 7.815970093361102e-14,
+      "coupled_energy_J": 60078.971999268295,
+      "mean_coupled_power_W": 2.781433888855014,
+      "declared_box_time_fraction": 1.0,
+      "budget_limited_steps": 0,
+      "final_volume_L": 14.094629955110321,
+      "final_sodium_mmol_L": 140.76035054737662
+    },
+    {
+      "dt_min": 0.125,
+      "maximum_water_residual_L": 8.1601392309949e-14,
+      "maximum_sodium_residual_mmol": 5.4924953474255744e-12,
+      "maximum_urea_residual_mmol": 2.8421709430404007e-13,
+      "coupled_energy_J": 60078.99646270914,
+      "mean_coupled_power_W": 2.7814350214217196,
+      "declared_box_time_fraction": 1.0,
+      "budget_limited_steps": 0,
+      "final_volume_L": 14.094641432490599,
+      "final_sodium_mmol_L": 140.7600495783262
+    }
+  ],
+  "note": "Hybrid sampled-controller refinement; not a universal fourth-order claim."
+}

@@ -1,0 +1,125 @@
+{
+  "experiment": "calibration",
+  "parameters": {
+    "observations": [
+      {
+        "time_min": 0.0,
+        "concentration_mmol_L": 20.0,
+        "split": "train"
+      },
+      {
+        "time_min": 10.0,
+        "concentration_mmol_L": 18.18730753077982,
+        "split": "train"
+      },
+      {
+        "time_min": 20.0,
+        "concentration_mmol_L": 16.703200460356392,
+        "split": "test"
+      },
+      {
+        "time_min": 30.0,
+        "concentration_mmol_L": 15.488116360940264,
+        "split": "train"
+      },
+      {
+        "time_min": 40.0,
+        "concentration_mmol_L": 14.493289641172215,
+        "split": "train"
+      },
+      {
+        "time_min": 50.0,
+        "concentration_mmol_L": 13.678794411714424,
+        "split": "test"
+      },
+      {
+        "time_min": 60.0,
+        "concentration_mmol_L": 13.011942119122022,
+        "split": "train"
+      },
+      {
+        "time_min": 70.0,
+        "concentration_mmol_L": 12.465969639416064,
+        "split": "train"
+      },
+      {
+        "time_min": 80.0,
+        "concentration_mmol_L": 12.018965179946553,
+        "split": "test"
+      },
+      {
+        "time_min": 90.0,
+        "concentration_mmol_L": 11.652988882215865,
+        "split": "train"
+      },
+      {
+        "time_min": 100.0,
+        "concentration_mmol_L": 11.353352832366127,
+        "split": "train"
+      },
+      {
+        "time_min": 110.0,
+        "concentration_mmol_L": 11.108031583623339,
+        "split": "test"
+      },
+      {
+        "time_min": 120.0,
+        "concentration_mmol_L": 10.907179532894125,
+        "split": "train"
+      },
+      {
+        "time_min": 130.0,
+        "concentration_mmol_L": 10.742735782143338,
+        "split": "train"
+      },
+      {
+        "time_min": 140.0,
+        "concentration_mmol_L": 10.60810062625218,
+        "split": "test"
+      },
+      {
+        "time_min": 150.0,
+        "concentration_mmol_L": 10.49787068367864,
+        "split": "train"
+      },
+      {
+        "time_min": 160.0,
+        "concentration_mmol_L": 10.407622039783663,
+        "split": "train"
+      },
+      {
+        "time_min": 170.0,
+        "concentration_mmol_L": 10.33373269960326,
+        "split": "test"
+      },
+      {
+        "time_min": 180.0,
+        "concentration_mmol_L": 10.273237224472926,
+        "split": "train"
+      },
+      {
+        "time_min": 190.0,
+        "concentration_mmol_L": 10.223707718561656,
+        "split": "train"
+      },
+      {
+        "time_min": 200.0,
+        "concentration_mmol_L": 10.183156388887342,
+        "split": "test"
+      }
+    ],
+    "source": {
+      "id": "SYN-CURVE-01",
+      "kind": "synthetic",
+      "locator": "calibration.synthetic_observations",
+      "rights_confirmed": true
+    },
+    "k_min_per_min": 0.005,
+    "k_max_per_min": 0.05,
+    "css_min_mmol_L": 5.0,
+    "css_max_mmol_L": 15.0,
+    "grid_size": 61
+  },
+  "software_version": "1.0.0",
+  "code_digest": "08e5b63cebb46e0581a377f8add619cc02025f9487a17be0cdf0bc2ce73bc542"
+}

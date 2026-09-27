@@ -1,0 +1,652 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NEPHROGENESIS-Lab | Experiment Report</title><style>
+body{font:16px/1.65 system-ui,sans-serif;color:#23313b;background:#eef2f4;margin:0}main{max-width:1120px;margin:auto;padding:38px 24px}header{background:#183f53;color:white;padding:35px}h1{font-size:38px;line-height:1.15}h2{font-size:25px}section{background:white;padding:28px;margin:24px 0;border:1px solid #dbe2e5}.tag{font:13px monospace;color:#526879}.metrics{display:flex;gap:12px;flex-wrap:wrap}.metrics div{padding:12px;border:1px solid #dbe2e5;min-width:150px;max-width:300px;overflow-wrap:anywhere}.metrics b{font-size:13px}.metrics p{margin:8px 0;font-size:19px}.note{border-left:3px solid #b35d32;padding-left:14px}pre{white-space:pre-wrap;font:12px/1.45 monospace;overflow-wrap:anywhere}svg{width:100%;max-height:360px}table{border-collapse:collapse;font-size:13px}td,th{padding:8px;border-bottom:1px solid #dbe2e5;text-align:left;white-space:nowrap}.scroll{overflow:auto}figcaption{font-size:13px;color:#526879}details{margin-top:18px}a{color:inherit}</style></head><body><header><p>BOOK COMPANION / EXECUTABLE SCIENCE</p><h1>NEPHROGENESIS-Lab</h1><p>Energy, information and the maintenance of viable differences.</p><p>Synthetic research and education. No clinical decision support or proof of a new physical field.</p></header><main><section><h2>Calibrate a declared surrogate without using held-out outcomes</h2><p class="tag">conditional_fit_to_operator_declared_data</p><div class="metrics"><div><b>k per min</b><p>0.020000000000000004</p></div><div><b>equilibrium mmol L</b><p>10.0</p></div><div><b>generation mmol L min</b><p>0.20000000000000004</p></div><div><b>training SSE</b><p>6.310887241768095e-30</p></div><div><b>held out MSE</b><p>4.507776601262924e-31</p></div><div><b>constant initial value held out MSE</b><p>67.37220889501144</p></div><div><b>on search boundary</b><p>False</p></div><div><b>candidate grid points</b><p>3721</p></div></div><figure><svg viewBox="0 0 730 280" role="img" aria-label="Experiment trajectory"><path d="M45 25V240H700" fill="none" stroke="#879299"/><polyline fill="none" stroke="#245c78" stroke-width="2" points="45.00,35.00 77.50,72.85 110.00,103.85 142.50,129.22 175.00,149.99 207.50,167.00 240.00,180.93 272.50,192.33 305.00,201.66 337.50,209.31 370.00,215.56 402.50,220.69 435.00,224.88 467.50,228.31 500.00,231.13 532.50,233.43 565.00,235.31 597.50,236.86 630.00,238.12 662.50,239.15 695.00,240.00"/><polyline fill="none" stroke="#b35d32" stroke-width="2" points="45.00,35.00 77.50,72.85 110.00,103.85 142.50,129.22 175.00,149.99 207.50,167.00 240.00,180.93 272.50,192.33 305.00,201.66 337.50,209.31 370.00,215.56 402.50,220.69 435.00,224.88 467.50,228.31 500.00,231.13 532.50,233.43 565.00,235.31 597.50,236.86 630.00,238.12 662.50,239.15 695.00,240.00"/><text x="45" y="270">0 to 200 min</text><text x="45" y="20">10.183 to 20 mmol/L</text></svg><figcaption><span>supplied observations</span> | <span>training-selected surrogate</span></figcaption></figure><div class="scroll"><table><tr><th>time_min</th><th>concentration_mmol_L</th><th>split</th><th>prediction_mmol_L</th><th>residual_mmol_L</th></tr><tr><td>0.0</td><td>20.0</td><td>train</td><td>20.0</td><td>0.0</td></tr><tr><td>10.0</td><td>18.18730753077982</td><td>train</td><td>18.18730753077982</td><td>0.0</td></tr><tr><td>20.0</td><td>16.703200460356392</td><td>test</td><td>16.703200460356392</td><td>0.0</td></tr><tr><td>30.0</td><td>15.488116360940264</td><td>train</td><td>15.488116360940264</td><td>0.0</td></tr><tr><td>40.0</td><td>14.493289641172215</td><td>train</td><td>14.493289641172215</td><td>0.0</td></tr><tr><td>50.0</td><td>13.678794411714424</td><td>test</td><td>13.678794411714422</td><td>1.7763568394002505e-15</td></tr><tr><td>60.0</td><td>13.011942119122022</td><td>train</td><td>13.01194211912202</td><td>1.7763568394002505e-15</td></tr><tr><td>70.0</td><td>12.465969639416064</td><td>train</td><td>12.465969639416064</td><td>0.0</td></tr><tr><td>80.0</td><td>12.018965179946553</td><td>test</td><td>12.018965179946553</td><td>0.0</td></tr><tr><td>90.0</td><td>11.652988882215865</td><td>train</td><td>11.652988882215865</td><td>0.0</td></tr><tr><td>100.0</td><td>11.353352832366127</td><td>train</td><td>11.353352832366125</td><td>1.7763568394002505e-15</td></tr><tr><td>110.0</td><td>11.108031583623339</td><td>test</td><td>11.108031583623339</td><td>0.0</td></tr><tr><td>120.0</td><td>10.907179532894125</td><td>train</td><td>10.907179532894125</td><td>0.0</td></tr><tr><td>130.0</td><td>10.742735782143338</td><td>train</td><td>10.742735782143338</td><td>0.0</td></tr><tr><td>140.0</td><td>10.60810062625218</td><td>test</td><td>10.60810062625218</td><td>0.0</td></tr><tr><td>150.0</td><td>10.49787068367864</td><td>train</td><td>10.49787068367864</td><td>0.0</td></tr><tr><td>160.0</td><td>10.407622039783663</td><td>train</td><td>10.407622039783663</td><td>0.0</td></tr><tr><td>170.0</td><td>10.33373269960326</td><td>test</td><td>10.33373269960326</td><td>0.0</td></tr><tr><td>180.0</td><td>10.273237224472926</td><td>train</td><td>10.273237224472926</td><td>0.0</td></tr><tr><td>190.0</td><td>10.223707718561656</td><td>train</td><td>10.223707718561656</td><td>0.0</td></tr><tr><td>200.0</td><td>10.183156388887342</td><td>test</td><td>10.183156388887342</td><td>0.0</td></tr></table></div><p class="note">Fit C(t)=Css+(C0-Css)exp(-kt) on the declared finite grid using training rows only. C0 is fixed at the initial training observation.</p><p class="note">No confidence interval is claimed; uncertainty in C0, correlated noise, model discrepancy and grid resolution remain unmodeled.</p><p class="note">A boundary optimum may mean inadequate search bounds or model mismatch. Held-out error is reported without clinical interpretation.</p><p class="note">The source kind and rights statement are operator declarations, not verified provenance. No personal identifiers are needed.</p><details><summary>Parameters, full result and source sections</summary><pre>{
+  &quot;title&quot;: &quot;Calibrate a declared surrogate without using held-out outcomes&quot;,
+  &quot;status&quot;: &quot;conditional_fit_to_operator_declared_data&quot;,
+  &quot;metrics&quot;: {
+    &quot;k_per_min&quot;: 0.020000000000000004,
+    &quot;equilibrium_mmol_L&quot;: 10.0,
+    &quot;generation_mmol_L_min&quot;: 0.20000000000000004,
+    &quot;training_SSE&quot;: 6.310887241768095e-30,
+    &quot;held_out_MSE&quot;: 4.507776601262924e-31,
+    &quot;constant_initial_value_held_out_MSE&quot;: 67.37220889501144,
+    &quot;on_search_boundary&quot;: false,
+    &quot;candidate_grid_points&quot;: 3721
+  },
+  &quot;rows&quot;: [
+    {
+      &quot;time_min&quot;: 0.0,
+      &quot;concentration_mmol_L&quot;: 20.0,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 20.0,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 10.0,
+      &quot;concentration_mmol_L&quot;: 18.18730753077982,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 18.18730753077982,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 20.0,
+      &quot;concentration_mmol_L&quot;: 16.703200460356392,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 16.703200460356392,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 30.0,
+      &quot;concentration_mmol_L&quot;: 15.488116360940264,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 15.488116360940264,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 40.0,
+      &quot;concentration_mmol_L&quot;: 14.493289641172215,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 14.493289641172215,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 50.0,
+      &quot;concentration_mmol_L&quot;: 13.678794411714424,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 13.678794411714422,
+      &quot;residual_mmol_L&quot;: 1.7763568394002505e-15
+    },
+    {
+      &quot;time_min&quot;: 60.0,
+      &quot;concentration_mmol_L&quot;: 13.011942119122022,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 13.01194211912202,
+      &quot;residual_mmol_L&quot;: 1.7763568394002505e-15
+    },
+    {
+      &quot;time_min&quot;: 70.0,
+      &quot;concentration_mmol_L&quot;: 12.465969639416064,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 12.465969639416064,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 80.0,
+      &quot;concentration_mmol_L&quot;: 12.018965179946553,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 12.018965179946553,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 90.0,
+      &quot;concentration_mmol_L&quot;: 11.652988882215865,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 11.652988882215865,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 100.0,
+      &quot;concentration_mmol_L&quot;: 11.353352832366127,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 11.353352832366125,
+      &quot;residual_mmol_L&quot;: 1.7763568394002505e-15
+    },
+    {
+      &quot;time_min&quot;: 110.0,
+      &quot;concentration_mmol_L&quot;: 11.108031583623339,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 11.108031583623339,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 120.0,
+      &quot;concentration_mmol_L&quot;: 10.907179532894125,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.907179532894125,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 130.0,
+      &quot;concentration_mmol_L&quot;: 10.742735782143338,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.742735782143338,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 140.0,
+      &quot;concentration_mmol_L&quot;: 10.60810062625218,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 10.60810062625218,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 150.0,
+      &quot;concentration_mmol_L&quot;: 10.49787068367864,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.49787068367864,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 160.0,
+      &quot;concentration_mmol_L&quot;: 10.407622039783663,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.407622039783663,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 170.0,
+      &quot;concentration_mmol_L&quot;: 10.33373269960326,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 10.33373269960326,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 180.0,
+      &quot;concentration_mmol_L&quot;: 10.273237224472926,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.273237224472926,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 190.0,
+      &quot;concentration_mmol_L&quot;: 10.223707718561656,
+      &quot;split&quot;: &quot;train&quot;,
+      &quot;prediction_mmol_L&quot;: 10.223707718561656,
+      &quot;residual_mmol_L&quot;: 0.0
+    },
+    {
+      &quot;time_min&quot;: 200.0,
+      &quot;concentration_mmol_L&quot;: 10.183156388887342,
+      &quot;split&quot;: &quot;test&quot;,
+      &quot;prediction_mmol_L&quot;: 10.183156388887342,
+      &quot;residual_mmol_L&quot;: 0.0
+    }
+  ],
+  &quot;profile&quot;: [
+    {
+      &quot;k_per_min&quot;: 0.005,
+      &quot;minimum_training_SSE&quot;: 65.14214189659423
+    },
+    {
+      &quot;k_per_min&quot;: 0.00575,
+      &quot;minimum_training_SSE&quot;: 39.89204610071208
+    },
+    {
+      &quot;k_per_min&quot;: 0.006500000000000001,
+      &quot;minimum_training_SSE&quot;: 24.965041983640425
+    },
+    {
+      &quot;k_per_min&quot;: 0.00725,
+      &quot;minimum_training_SSE&quot;: 17.946696352847546
+    },
+    {
+      &quot;k_per_min&quot;: 0.008,
+      &quot;minimum_training_SSE&quot;: 15.302194857592047
+    },
+    {
+      &quot;k_per_min&quot;: 0.00875,
+      &quot;minimum_training_SSE&quot;: 13.012368594378014
+    },
+    {
+      &quot;k_per_min&quot;: 0.009500000000000001,
+      &quot;minimum_training_SSE&quot;: 10.959531818941823
+    },
+    {
+      &quot;k_per_min&quot;: 0.010250000000000002,
+      &quot;minimum_training_SSE&quot;: 9.13754879048563
+    },
+    {
+      &quot;k_per_min&quot;: 0.011000000000000001,
+      &quot;minimum_training_SSE&quot;: 7.535108637916745
+    },
+    {
+      &quot;k_per_min&quot;: 0.01175,
+      &quot;minimum_training_SSE&quot;: 6.1266691918441705
+    },
+    {
+      &quot;k_per_min&quot;: 0.0125,
+      &quot;minimum_training_SSE&quot;: 4.882832592853168
+    },
+    {
+      &quot;k_per_min&quot;: 0.013250000000000001,
+      &quot;minimum_training_SSE&quot;: 3.8444546916687443
+    },
+    {
+      &quot;k_per_min&quot;: 0.014000000000000002,
+      &quot;minimum_training_SSE&quot;: 2.917994762928226
+    },
+    {
+      &quot;k_per_min&quot;: 0.014750000000000003,
+      &quot;minimum_training_SSE&quot;: 2.1702597368017487
+    },
+    {
+      &quot;k_per_min&quot;: 0.015500000000000003,
+      &quot;minimum_training_SSE&quot;: 1.555187751799468
+    },
+    {
+      &quot;k_per_min&quot;: 0.01625,
+      &quot;minimum_training_SSE&quot;: 1.0491353321048522
+    },
+    {
+      &quot;k_per_min&quot;: 0.017,
+      &quot;minimum_training_SSE&quot;: 0.6447137500685359
+    },
+    {
+      &quot;k_per_min&quot;: 0.017750000000000002,
+      &quot;minimum_training_SSE&quot;: 0.346145391503669
+    },
+    {
+      &quot;k_per_min&quot;: 0.018500000000000003,
+      &quot;minimum_training_SSE&quot;: 0.16577729589769913
+    },
+    {
+      &quot;k_per_min&quot;: 0.019250000000000003,
+      &quot;minimum_training_SSE&quot;: 0.07097642600956647
+    },
+    {
+      &quot;k_per_min&quot;: 0.020000000000000004,
+      &quot;minimum_training_SSE&quot;: 6.310887241768095e-30
+    },
+    {
+      &quot;k_per_min&quot;: 0.02075,
+      &quot;minimum_training_SSE&quot;: 0.07979033326365673
+    },
+    {
+      &quot;k_per_min&quot;: 0.021500000000000002,
+      &quot;minimum_training_SSE&quot;: 0.13169315713423557
+    },
+    {
+      &quot;k_per_min&quot;: 0.022250000000000002,
+      &quot;minimum_training_SSE&quot;: 0.3322274389501977
+    },
+    {
+      &quot;k_per_min&quot;: 0.023000000000000003,
+      &quot;minimum_training_SSE&quot;: 0.4879691176667267
+    },
+    {
+      &quot;k_per_min&quot;: 0.023750000000000004,
+      &quot;minimum_training_SSE&quot;: 0.7816262981861253
+    },
+    {
+      &quot;k_per_min&quot;: 0.024500000000000004,
+      &quot;minimum_training_SSE&quot;: 1.040139938521582
+    },
+    {
+      &quot;k_per_min&quot;: 0.02525,
+      &quot;minimum_training_SSE&quot;: 1.3640138231661367
+    },
+    {
+      &quot;k_per_min&quot;: 0.026000000000000006,
+      &quot;minimum_training_SSE&quot;: 1.782585432355192
+    },
+    {
+      &quot;k_per_min&quot;: 0.026750000000000003,
+      &quot;minimum_training_SSE&quot;: 2.1173742251627865
+    },
+    {
+      &quot;k_per_min&quot;: 0.027500000000000004,
+      &quot;minimum_training_SSE&quot;: 2.525913504028087
+    },
+    {
+      &quot;k_per_min&quot;: 0.028250000000000004,
+      &quot;minimum_training_SSE&quot;: 3.001148203405445
+    },
+    {
+      &quot;k_per_min&quot;: 0.029000000000000005,
+      &quot;minimum_training_SSE&quot;: 3.451176361855474
+    },
+    {
+      &quot;k_per_min&quot;: 0.029750000000000002,
+      &quot;minimum_training_SSE&quot;: 3.894838768914498
+    },
+    {
+      &quot;k_per_min&quot;: 0.030500000000000006,
+      &quot;minimum_training_SSE&quot;: 4.386522538606824
+    },
+    {
+      &quot;k_per_min&quot;: 0.03125,
+      &quot;minimum_training_SSE&quot;: 4.919828376583821
+    },
+    {
+      &quot;k_per_min&quot;: 0.032,
+      &quot;minimum_training_SSE&quot;: 5.447337216323139
+    },
+    {
+      &quot;k_per_min&quot;: 0.03275,
+      &quot;minimum_training_SSE&quot;: 5.931828166768029
+    },
+    {
+      &quot;k_per_min&quot;: 0.0335,
+      &quot;minimum_training_SSE&quot;: 6.4469219019770305
+    },
+    {
+      &quot;k_per_min&quot;: 0.03425,
+      &quot;minimum_training_SSE&quot;: 6.988485233411621
+    },
+    {
+      &quot;k_per_min&quot;: 0.035,
+      &quot;minimum_training_SSE&quot;: 7.552839853530589
+    },
+    {
+      &quot;k_per_min&quot;: 0.035750000000000004,
+      &quot;minimum_training_SSE&quot;: 8.136709772439671
+    },
+    {
+      &quot;k_per_min&quot;: 0.0365,
+      &quot;minimum_training_SSE&quot;: 8.646021338226946
+    },
+    {
+      &quot;k_per_min&quot;: 0.037250000000000005,
+      &quot;minimum_training_SSE&quot;: 9.169416342375488
+    },
+    {
+      &quot;k_per_min&quot;: 0.038,
+      &quot;minimum_training_SSE&quot;: 9.707395278055834
+    },
+    {
+      &quot;k_per_min&quot;: 0.03875000000000001,
+      &quot;minimum_training_SSE&quot;: 10.257751717342583
+    },
+    {
+      &quot;k_per_min&quot;: 0.0395,
+      &quot;minimum_training_SSE&quot;: 10.818509613658806
+    },
+    {
+      &quot;k_per_min&quot;: 0.04025,
+      &quot;minimum_training_SSE&quot;: 11.387898769945428
+    },
+    {
+      &quot;k_per_min&quot;: 0.041,
+      &quot;minimum_training_SSE&quot;: 11.96433313728609
+    },
+    {
+      &quot;k_per_min&quot;: 0.041749999999999995,
+      &quot;minimum_training_SSE&quot;: 12.481076784476857
+    },
+    {
+      &quot;k_per_min&quot;: 0.0425,
+      &quot;minimum_training_SSE&quot;: 12.996561864196705
+    },
+    {
+      &quot;k_per_min&quot;: 0.043250000000000004,
+      &quot;minimum_training_SSE&quot;: 13.517297590455543
+    },
+    {
+      &quot;k_per_min&quot;: 0.044000000000000004,
+      &quot;minimum_training_SSE&quot;: 14.042177108568339
+    },
+    {
+      &quot;k_per_min&quot;: 0.04475,
+      &quot;minimum_training_SSE&quot;: 14.570205314926035
+    },
+    {
+      &quot;k_per_min&quot;: 0.0455,
+      &quot;minimum_training_SSE&quot;: 15.100487832318253
+    },
+    {
+      &quot;k_per_min&quot;: 0.04625,
+      &quot;minimum_training_SSE&quot;: 15.63222114709007
+    },
+    {
+      &quot;k_per_min&quot;: 0.04700000000000001,
+      &quot;minimum_training_SSE&quot;: 16.164683774914508
+    },
+    {
+      &quot;k_per_min&quot;: 0.04775,
+      &quot;minimum_training_SSE&quot;: 16.69722833858832
+    },
+    {
+      &quot;k_per_min&quot;: 0.0485,
+      &quot;minimum_training_SSE&quot;: 17.217098098758473
+    },
+    {
+      &quot;k_per_min&quot;: 0.04925,
+      &quot;minimum_training_SSE&quot;: 17.694540874554967
+    },
+    {
+      &quot;k_per_min&quot;: 0.05,
+      &quot;minimum_training_SSE&quot;: 18.17186252177426
+    }
+  ],
+  &quot;source_declaration&quot;: {
+    &quot;id&quot;: &quot;SYN-CURVE-01&quot;,
+    &quot;kind&quot;: &quot;synthetic&quot;,
+    &quot;locator&quot;: &quot;calibration.synthetic_observations&quot;,
+    &quot;rights_confirmed&quot;: true
+  },
+  &quot;series&quot;: [
+    {
+      &quot;name&quot;: &quot;supplied observations&quot;,
+      &quot;x&quot;: [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0,
+        160.0,
+        170.0,
+        180.0,
+        190.0,
+        200.0
+      ],
+      &quot;y&quot;: [
+        20.0,
+        18.18730753077982,
+        16.703200460356392,
+        15.488116360940264,
+        14.493289641172215,
+        13.678794411714424,
+        13.011942119122022,
+        12.465969639416064,
+        12.018965179946553,
+        11.652988882215865,
+        11.353352832366127,
+        11.108031583623339,
+        10.907179532894125,
+        10.742735782143338,
+        10.60810062625218,
+        10.49787068367864,
+        10.407622039783663,
+        10.33373269960326,
+        10.273237224472926,
+        10.223707718561656,
+        10.183156388887342
+      ],
+      &quot;x_unit&quot;: &quot;min&quot;,
+      &quot;y_unit&quot;: &quot;mmol/L&quot;
+    },
+    {
+      &quot;name&quot;: &quot;training-selected surrogate&quot;,
+      &quot;x&quot;: [
+        0.0,
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0,
+        160.0,
+        170.0,
+        180.0,
+        190.0,
+        200.0
+      ],
+      &quot;y&quot;: [
+        20.0,
+        18.18730753077982,
+        16.703200460356392,
+        15.488116360940264,
+        14.493289641172215,
+        13.678794411714422,
+        13.01194211912202,
+        12.465969639416064,
+        12.018965179946553,
+        11.652988882215865,
+        11.353352832366125,
+        11.108031583623339,
+        10.907179532894125,
+        10.742735782143338,
+        10.60810062625218,
+        10.49787068367864,
+        10.407622039783663,
+        10.33373269960326,
+        10.273237224472926,
+        10.223707718561656,
+        10.183156388887342
+      ],
+      &quot;x_unit&quot;: &quot;min&quot;,
+      &quot;y_unit&quot;: &quot;mmol/L&quot;
+    }
+  ],
+  &quot;notes&quot;: [
+    &quot;Fit C(t)=Css+(C0-Css)exp(-kt) on the declared finite grid using training rows only. C0 is fixed at the initial training observation.&quot;,
+    &quot;No confidence interval is claimed; uncertainty in C0, correlated noise, model discrepancy and grid resolution remain unmodeled.&quot;,
+    &quot;A boundary optimum may mean inadequate search bounds or model mismatch. Held-out error is reported without clinical interpretation.&quot;,
+    &quot;The source kind and rights statement are operator declarations, not verified provenance. No personal identifiers are needed.&quot;
+  ],
+  &quot;experiment&quot;: &quot;calibration&quot;,
+  &quot;book_sections&quot;: [
+    &quot;15.4&quot;,
+    &quot;15.7&quot;,
+    &quot;15.10&quot;
+  ],
+  &quot;parameters&quot;: {
+    &quot;observations&quot;: [
+      {
+        &quot;time_min&quot;: 0.0,
+        &quot;concentration_mmol_L&quot;: 20.0,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 10.0,
+        &quot;concentration_mmol_L&quot;: 18.18730753077982,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 20.0,
+        &quot;concentration_mmol_L&quot;: 16.703200460356392,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 30.0,
+        &quot;concentration_mmol_L&quot;: 15.488116360940264,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 40.0,
+        &quot;concentration_mmol_L&quot;: 14.493289641172215,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 50.0,
+        &quot;concentration_mmol_L&quot;: 13.678794411714424,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 60.0,
+        &quot;concentration_mmol_L&quot;: 13.011942119122022,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 70.0,
+        &quot;concentration_mmol_L&quot;: 12.465969639416064,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 80.0,
+        &quot;concentration_mmol_L&quot;: 12.018965179946553,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 90.0,
+        &quot;concentration_mmol_L&quot;: 11.652988882215865,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 100.0,
+        &quot;concentration_mmol_L&quot;: 11.353352832366127,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 110.0,
+        &quot;concentration_mmol_L&quot;: 11.108031583623339,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 120.0,
+        &quot;concentration_mmol_L&quot;: 10.907179532894125,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 130.0,
+        &quot;concentration_mmol_L&quot;: 10.742735782143338,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 140.0,
+        &quot;concentration_mmol_L&quot;: 10.60810062625218,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 150.0,
+        &quot;concentration_mmol_L&quot;: 10.49787068367864,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 160.0,
+        &quot;concentration_mmol_L&quot;: 10.407622039783663,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 170.0,
+        &quot;concentration_mmol_L&quot;: 10.33373269960326,
+        &quot;split&quot;: &quot;test&quot;
+      },
+      {
+        &quot;time_min&quot;: 180.0,
+        &quot;concentration_mmol_L&quot;: 10.273237224472926,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 190.0,
+        &quot;concentration_mmol_L&quot;: 10.223707718561656,
+        &quot;split&quot;: &quot;train&quot;
+      },
+      {
+        &quot;time_min&quot;: 200.0,
+        &quot;concentration_mmol_L&quot;: 10.183156388887342,
+        &quot;split&quot;: &quot;test&quot;
+      }
+    ],
+    &quot;source&quot;: {
+      &quot;id&quot;: &quot;SYN-CURVE-01&quot;,
+      &quot;kind&quot;: &quot;synthetic&quot;,
+      &quot;locator&quot;: &quot;calibration.synthetic_observations&quot;,
+      &quot;rights_confirmed&quot;: true
+    },
+    &quot;k_min_per_min&quot;: 0.005,
+    &quot;k_max_per_min&quot;: 0.05,
+    &quot;css_min_mmol_L&quot;: 5.0,
+    &quot;css_max_mmol_L&quot;: 15.0,
+    &quot;grid_size&quot;: 61
+  }
+}</pre></details></section><footer>Local, reproducible output. Integrity receipts detect changes relative to an independently preserved trust anchor; they do not establish scientific truth.</footer></main></body></html>

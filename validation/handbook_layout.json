@@ -1,0 +1,13 @@
+{
+  "file": "docs/NEPHROGENESIS_Lab_English_Handbook.docx",
+  "pages": 19,
+  "all_pages_rendered": true,
+  "all_pages_visually_reviewed": true,
+  "corrections": [
+    "Sequential numbering of selected method sections",
+    "Conservation-table column widths adjusted for readable quantity labels"
+  ],
+  "rendered_with": "LibreOffice through docx/render_docx.py",
+  "font_files_distributed": false,
+  "sha256": "80e70913a02862a8cb8d1a04ea8d42513a74ae2b45678c01797866329042f551"
+}

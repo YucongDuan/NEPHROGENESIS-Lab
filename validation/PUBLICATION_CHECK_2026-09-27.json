@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-09-27",
+  "source_archive": "NEPHROGENESIS_Lab_v1.0.0(1).zip",
+  "source_archive_sha256": "e0003ff9fc1caf64be4217812086f3132bad20fb7aaef8b74d4f366b6fafa39b",
+  "original_manifest_files": 103,
+  "original_manifest_verified": true,
+  "python": "3.12.14",
+  "platform": "Linux",
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests": 198,
+    "result": "passed",
+    "log": "publication_tests.log"
+  },
+  "publication_scope": "Source, documentation, examples, existing packaged distributions and static example viewers. Python calculations run locally; hosted reports are precomputed."
+}

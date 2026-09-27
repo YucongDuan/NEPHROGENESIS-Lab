@@ -1,0 +1,10 @@
+WARNING: The directory '/home/oai/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /mnt/data/NEPHROGENESIS-Lab
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: nephrogenesis-lab
+  Building wheel for nephrogenesis-lab (pyproject.toml): started
+  Building wheel for nephrogenesis-lab (pyproject.toml): finished with status 'done'
+  Created wheel for nephrogenesis-lab: filename=nephrogenesis_lab-1.0.0-py3-none-any.whl size=57813 sha256=24a9de9fa23faa7ee09db98cedcfc7c9d14559e45784f48fec53bd756bdf20de
+  Stored in directory: /tmp/pip-ephem-wheel-cache-d5n2p248/wheels/72/ee/4a/3fba236921f417c61fb79d1cb616670bce32e4ac19a4970d4e
+Successfully built nephrogenesis-lab

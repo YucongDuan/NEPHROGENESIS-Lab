@@ -1,0 +1,200 @@
+[
+  {
+    "id": "B01",
+    "name": "Renal plasma flow",
+    "actual": 600.0,
+    "expected": 600,
+    "unit": "mL/min",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B02",
+    "name": "Filtration fraction",
+    "actual": 0.19999999999999998,
+    "expected": 0.2,
+    "unit": "1",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B03",
+    "name": "De-indexed estimate",
+    "actual": 119.65317919075143,
+    "expected": 119.65317919075144,
+    "unit": "mL/min",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B04",
+    "name": "Ideal sodium coupling power",
+    "actual": 5e-05,
+    "expected": 5e-05,
+    "unit": "W",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B05",
+    "name": "Osmolar clearance",
+    "actual": 4.0,
+    "expected": 4,
+    "unit": "mL/min",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B06",
+    "name": "Free water clearance",
+    "actual": -2.0,
+    "expected": -2,
+    "unit": "mL/min",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B07",
+    "name": "Minimum urine at 1200",
+    "actual": 0.5,
+    "expected": 0.5,
+    "unit": "L/day",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B08",
+    "name": "Minimum urine at 600",
+    "actual": 1.0,
+    "expected": 1,
+    "unit": "L/day",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B09",
+    "name": "Net acid excretion",
+    "actual": 55.0,
+    "expected": 55,
+    "unit": "mEq/day",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B10",
+    "name": "Outward sodium work",
+    "actual": 12511.020147906464,
+    "expected": 12511.020147906465,
+    "unit": "J/mol",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B11",
+    "name": "Inward potassium work",
+    "actual": 2409.8774024192653,
+    "expected": 2409.8774024192653,
+    "unit": "J/mol",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B12",
+    "name": "3 sodium / 2 potassium cycle",
+    "actual": 42352.81524855792,
+    "expected": 42352.81524855792,
+    "unit": "J/mol",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B13",
+    "name": "Cycle margin under 55 kJ/mol",
+    "actual": 12647.184751442079,
+    "expected": 12647.18475144208,
+    "unit": "J/mol",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B14",
+    "name": "Landauer energy",
+    "actual": 2.9666781812480147e-21,
+    "expected": 2.9666781812480147e-21,
+    "unit": "J",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B15",
+    "name": "Ideal erasure power",
+    "actual": 2.966678181248015e-06,
+    "expected": 2.966678181248015e-06,
+    "unit": "W",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B16",
+    "name": "Avogadro conversion consistency",
+    "actual": 7.002794525241768,
+    "expected": 7.002794525241767,
+    "unit": "1",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B17",
+    "name": "Planck length",
+    "actual": 1.6162550244237053e-35,
+    "expected": 1.616255e-35,
+    "unit": "m",
+    "relative_tolerance": 1e-06,
+    "passed": true
+  },
+  {
+    "id": "B18",
+    "name": "Planck time",
+    "actual": 5.391246448313605e-44,
+    "expected": 5.391247e-44,
+    "unit": "s",
+    "relative_tolerance": 1e-06,
+    "passed": true
+  },
+  {
+    "id": "B19",
+    "name": "Illustrative information bound",
+    "actual": 2.576908209992606e+43,
+    "expected": 2.576908209992606e+43,
+    "unit": "bit",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B20",
+    "name": "Light crossing time",
+    "actual": 3.3356409519815204e-09,
+    "expected": 3.3356409519815204e-09,
+    "unit": "s",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B21",
+    "name": "Bernoulli receptor information at unit concentration",
+    "actual": 0.25,
+    "expected": 0.25,
+    "unit": "1",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "id": "B22",
+    "name": "Optimally remapped binary channel",
+    "actual": 0.8,
+    "expected": 0.8,
+    "unit": "1",
+    "relative_tolerance": 1e-10,
+    "passed": true
+  }
+]

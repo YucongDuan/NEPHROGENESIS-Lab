@@ -1,0 +1,33 @@
+{
+  "title": "A Brief History of the Kidney",
+  "authors": [
+    "Yucong Duan",
+    "Zhongdao Wu"
+  ],
+  "source_filename": "Kidney_History_Final.docx",
+  "source_sha256": "bf75d3bfe0fe6fc6ffef9bc03fdee5b89794bb4148752382485ef1b825462a44",
+  "source_archive_sha256": "5a1889f71d4599729a1fad4c7c921345828f95fa4db9e511a0c3b61b45ac0400",
+  "basis": "User-provided final manuscript and source chapter files; no assumption of publisher acceptance.",
+  "redistribution": "Book text is not included or relicensed. Companion English descriptions are original.",
+  "chapter_count": 18,
+  "chapter_source_hashes": {
+    "1": "8923bf603db8970279f394a11b049be2861c323f7edce8402a33e3d0da989244",
+    "2": "5970857dc81128c643ef5f84f58790f1017c20bb2cb5f1e733da78491e23d26c",
+    "3": "aee53b599ea1b30a3abe16834b85def15dde2ef1edf01df1ff19247d26132ca1",
+    "4": "a7e81a2ea8a902671e55c26df6d7cb3c6adca4758a116d16e1f4a2f83e13694d",
+    "5": "1c260102b113406617bb09f37158a21b1ff8895f2dfb409bdd79c72abdc96928",
+    "6": "87e5bec8d01e787656beefb0cee64d3ec7f1146f27c6156d942a3646b572a5c1",
+    "7": "0741ee94dcb4e83a4741ba0e95ab4111fb8109f44ec55252f6e780bf110da68c",
+    "8": "ff6c3d69bdd4f98a828cda563fc036de8256ce49195197eef2abe6e3a5d628b4",
+    "9": "17446803111f94081624e91c65ac88264307cbb0284e66076f34107ce9f0ca40",
+    "10": "352a73e84b9274b5b6445757ef97745c8665e2180699cf836b22c5416486c6ef",
+    "11": "3ec45f4c217a095c8ff8f4762a257e7807f23d7c6631ca4324276c9f9681a86e",
+    "12": "530aaac66d284e8eba9e80b20634c6f08b6a0880fcb3ce397caad7b532185472",
+    "13": "8b7a9e13c594c933a9c43fe6be2a1f23fb83fb0130133e3778bded2c1c1b2c84",
+    "14": "d2214a620e4f8edb2110230872ca20f996f07b1644dab53cd05b2b36ae12246a",
+    "15": "06ec90143e0f5631a42d312c688d697e4b30ea10602cb33bd7ff620a1f798900",
+    "16": "6a6e5ff18b09dca262c40d7458f48e16e5d677345a508bf346f5d6a18f397f6c",
+    "17": "2f1c45f330172ad03e7093bc3c3a7c51e00f53d31a0fda615271b3c458e0e06a",
+    "18": "eae6dee67eee862197770e21b40583647cd98d4ed8fdce4070fe289361958812"
+  }
+}

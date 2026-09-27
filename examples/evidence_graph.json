@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {
+      "id": "question",
+      "kind": "derived",
+      "role": "P",
+      "text": "Can equal sodium output conceal unequal ideal transport work?",
+      "depends_on": [],
+      "status": "active"
+    },
+    {
+      "id": "book-8.17",
+      "kind": "book",
+      "role": "K",
+      "text": "Ideal sodium / ATP coupling budget.",
+      "depends_on": [],
+      "status": "active",
+      "source": "A Brief History of the Kidney, section 8.17"
+    },
+    {
+      "id": "synthetic-flux",
+      "kind": "synthetic",
+      "role": "D",
+      "text": "Declared mmol/min rates; not patient observations.",
+      "depends_on": [
+        "question"
+      ],
+      "status": "active",
+      "provides": [
+        "sodium_mol_s"
+      ]
+    },
+    {
+      "id": "conversion",
+      "kind": "derived",
+      "role": "I",
+      "text": "Make the unit conversion and model boundary explicit.",
+      "depends_on": [
+        "synthetic-flux"
+      ],
+      "status": "active",
+      "requires": [
+        "sodium_mol_s"
+      ],
+      "provides": [
+        "typed_flux"
+      ]
+    },
+    {
+      "id": "calculation",
+      "kind": "derived",
+      "role": "K",
+      "text": "Compute conditional work under fixed stoichiometry.",
+      "depends_on": [
+        "conversion",
+        "book-8.17"
+      ],
+      "status": "active",
+      "requires": [
+        "typed_flux"
+      ],
+      "provides": [
+        "conditional_work"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "kind": "derived",
+      "role": "W",
+      "text": "Compare costs without calling either scenario a treatment.",
+      "depends_on": [
+        "calculation"
+      ],
+      "status": "active",
+      "requires": [
+        "conditional_work"
+      ]
+    },
+    {
+      "id": "revised-question",
+      "kind": "derived",
+      "role": "P",
+      "text": "Which additional flux measurement distinguishes mechanisms?",
+      "depends_on": [
+        "interpretation"
+      ],
+      "status": "active"
+    }
+  ]
+}

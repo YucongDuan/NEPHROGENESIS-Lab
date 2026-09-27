@@ -1,0 +1,11 @@
+{
+  "sodium_rate": {
+    "value": 3,
+    "unit": "nmol/s"
+  },
+  "sodium_per_atp": 3,
+  "atp_energy": {
+    "value": 50,
+    "unit": "J"
+  }
+}

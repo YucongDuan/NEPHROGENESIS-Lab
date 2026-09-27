@@ -1,0 +1,1057 @@
+{
+  "title": "Equal steady state, distinguishable transient",
+  "status": "synthetic_or_conditional_teaching_experiment",
+  "metrics": {
+    "steady_A": 10.0,
+    "steady_B": 10.0,
+    "best_candidate_time_min": 70.2,
+    "maximum_design_score": 69.43365567397456
+  },
+  "rows": [
+    {
+      "time_min": 0.0,
+      "candidate_A": 20.0,
+      "candidate_B": 20.0,
+      "squared_separation_over_variance": 0.0
+    },
+    {
+      "time_min": 1.8,
+      "candidate_A": 19.64640293483123,
+      "candidate_B": 19.82161032358301,
+      "squared_separation_over_variance": 0.34108476748019123
+    },
+    {
+      "time_min": 3.6,
+      "candidate_A": 19.305308958112057,
+      "candidate_B": 19.64640293483123,
+      "squared_separation_over_variance": 1.2927233439344346
+    },
+    {
+      "time_min": 5.4,
+      "candidate_A": 18.97627596430435,
+      "candidate_B": 19.474321065017982,
+      "squared_separation_over_variance": 2.756099137165025
+    },
+    {
+      "time_min": 7.2,
+      "candidate_A": 18.65887748059205,
+      "candidate_B": 19.305308958112057,
+      "squared_separation_over_variance": 4.643040612541108
+    },
+    {
+      "time_min": 9.0,
+      "candidate_A": 18.35270211411272,
+      "candidate_B": 19.139311852712282,
+      "squared_separation_over_variance": 6.87505423177413
+    },
+    {
+      "time_min": 10.8,
+      "candidate_A": 18.057353018734794,
+      "candidate_B": 18.97627596430435,
+      "squared_separation_over_variance": 9.382437554380312
+    },
+    {
+      "time_min": 12.6,
+      "candidate_A": 17.77244738068946,
+      "candidate_B": 18.81614846783416,
+      "squared_separation_over_variance": 12.10346621452256
+    },
+    {
+      "time_min": 14.4,
+      "candidate_A": 17.497615922390413,
+      "candidate_B": 18.65887748059205,
+      "squared_separation_over_variance": 14.983648961743278
+    },
+    {
+      "time_min": 16.2,
+      "candidate_A": 17.232502423798422,
+      "candidate_B": 18.50441204540233,
+      "squared_separation_over_variance": 17.975045394762155
+    },
+    {
+      "time_min": 18.0,
+      "candidate_A": 16.97676326071031,
+      "candidate_B": 18.35270211411272,
+      "squared_separation_over_variance": 21.035641425581534
+    },
+    {
+      "time_min": 19.8,
+      "candidate_A": 16.730066959373865,
+      "candidate_B": 18.20369853137831,
+      "squared_separation_over_variance": 24.128777888981073
+    },
+    {
+      "time_min": 21.6,
+      "candidate_A": 16.492093766851475,
+      "candidate_B": 18.057353018734794,
+      "squared_separation_over_variance": 27.22262806229252
+    },
+    {
+      "time_min": 23.4,
+      "candidate_A": 16.26253523657556,
+      "candidate_B": 17.91361815895584,
+      "squared_separation_over_variance": 30.2897201841756
+    },
+    {
+      "time_min": 25.2,
+      "candidate_A": 16.041093828558648,
+      "candidate_B": 17.77244738068946,
+      "squared_separation_over_variance": 33.30650136084425
+    },
+    {
+      "time_min": 27.0,
+      "candidate_A": 15.827482523739896,
+      "candidate_B": 17.63379494336853,
+      "squared_separation_over_variance": 36.2529395256073
+    },
+    {
+      "time_min": 28.8,
+      "candidate_A": 15.621424451968224,
+      "candidate_B": 17.497615922390413,
+      "squared_separation_over_variance": 39.112160374277494
+    },
+    {
+      "time_min": 30.6,
+      "candidate_A": 15.422652533139832,
+      "candidate_B": 17.363866194561002,
+      "squared_separation_over_variance": 41.870116436535376
+    },
+    {
+      "time_min": 32.4,
+      "candidate_A": 15.230909131025008,
+      "candidate_B": 17.232502423798422,
+      "squared_separation_over_variance": 44.51528566306132
+    },
+    {
+      "time_min": 34.2,
+      "candidate_A": 15.045945719335512,
+      "candidate_B": 17.103482047091774,
+      "squared_separation_over_variance": 47.03839711151915
+    },
+    {
+      "time_min": 36.0,
+      "candidate_A": 14.867522559599717,
+      "candidate_B": 16.97676326071031,
+      "squared_separation_over_variance": 49.4321815024612
+    },
+    {
+      "time_min": 37.8,
+      "candidate_A": 14.695408390427993,
+      "candidate_B": 16.852305006658703,
+      "squared_separation_over_variance": 51.69114459008322
+    },
+    {
+      "time_min": 39.6,
+      "candidate_A": 14.529380127765577,
+      "candidate_B": 16.730066959373865,
+      "squared_separation_over_variance": 53.81136145349024
+    },
+    {
+      "time_min": 41.4,
+      "candidate_A": 14.369222575744413,
+      "candidate_B": 16.610009512659126,
+      "squared_separation_over_variance": 55.79028996275135
+    },
+    {
+      "time_min": 43.2,
+      "candidate_A": 14.214728147759175,
+      "candidate_B": 16.492093766851475,
+      "squared_separation_over_variance": 57.62660181137397
+    },
+    {
+      "time_min": 45.0,
+      "candidate_A": 14.065696597405992,
+      "candidate_B": 16.376281516217734,
+      "squared_separation_over_variance": 59.320029633780706
+    },
+    {
+      "time_min": 46.8,
+      "candidate_A": 13.92193475893505,
+      "candidate_B": 16.26253523657556,
+      "squared_separation_over_variance": 60.871228843677535
+    },
+    {
+      "time_min": 48.6,
+      "candidate_A": 13.783256296880769,
+      "candidate_B": 16.150818073135287,
+      "squared_separation_over_variance": 62.281652937571685
+    },
+    {
+      "time_min": 50.4,
+      "candidate_A": 13.649481464544937,
+      "candidate_B": 16.041093828558648,
+      "squared_separation_over_variance": 63.55344110781386
+    },
+    {
+      "time_min": 52.2,
+      "candidate_A": 13.520436871019847,
+      "candidate_B": 15.93332695123052,
+      "squared_separation_over_variance": 64.68931710198963
+    },
+    {
+      "time_min": 54.0,
+      "candidate_A": 13.39595525644939,
+      "candidate_B": 15.827482523739896,
+      "squared_separation_over_variance": 65.69249835085814
+    },
+    {
+      "time_min": 55.8,
+      "candidate_A": 13.275875275236896,
+      "candidate_B": 15.723526251566334,
+      "squared_separation_over_variance": 66.56661446584947
+    },
+    {
+      "time_min": 57.6,
+      "candidate_A": 13.160041286918624,
+      "candidate_B": 15.621424451968224,
+      "squared_separation_over_variance": 67.3156342798843
+    },
+    {
+      "time_min": 59.4,
+      "candidate_A": 13.048303154431968,
+      "candidate_B": 15.521144043069306,
+      "squared_separation_over_variance": 67.94380067240775
+    },
+    {
+      "time_min": 61.2,
+      "candidate_A": 12.940516049516784,
+      "candidate_B": 15.422652533139832,
+      "squared_separation_over_variance": 68.45557248147321
+    },
+    {
+      "time_min": 63.0,
+      "candidate_A": 12.836540264997705,
+      "candidate_B": 15.325918010068971,
+      "squared_separation_over_variance": 68.85557286284558
+    },
+    {
+      "time_min": 64.8,
+      "candidate_A": 12.736241033704081,
+      "candidate_B": 15.230909131025008,
+      "squared_separation_over_variance": 69.14854350878684
+    },
+    {
+      "time_min": 66.6,
+      "candidate_A": 12.639488353792869,
+      "candidate_B": 15.137595112299984,
+      "squared_separation_over_variance": 69.33930418776583
+    },
+    {
+      "time_min": 68.4,
+      "candidate_A": 12.546156820248036,
+      "candidate_B": 15.045945719335512,
+      "squared_separation_over_variance": 69.43271711112192
+    },
+    {
+      "time_min": 70.2,
+      "candidate_A": 12.456125462338122,
+      "candidate_B": 14.955931256926515,
+      "squared_separation_over_variance": 69.43365567397456
+    },
+    {
+      "time_min": 72.0,
+      "candidate_A": 12.369277586821218,
+      "candidate_B": 14.867522559599717,
+      "squared_separation_over_variance": 69.34697715570049
+    },
+    {
+      "time_min": 73.8,
+      "candidate_A": 12.285500626694205,
+      "candidate_B": 14.780690982163776,
+      "squared_separation_over_variance": 69.17749900031517
+    },
+    {
+      "time_min": 75.6,
+      "candidate_A": 12.20468599529016,
+      "candidate_B": 14.695408390427993,
+      "squared_separation_over_variance": 68.92997832934607
+    },
+    {
+      "time_min": 77.4,
+      "candidate_A": 12.12672894553483,
+      "candidate_B": 14.611647152086585,
+      "squared_separation_over_variance": 68.60909436947095
+    },
+    {
+      "time_min": 79.2,
+      "candidate_A": 12.051528434179772,
+      "candidate_B": 14.529380127765577,
+      "squared_separation_over_variance": 68.21943350451158
+    },
+    {
+      "time_min": 81.0,
+      "candidate_A": 11.978986990836146,
+      "candidate_B": 14.44858066222941,
+      "squared_separation_over_variance": 67.76547668650736
+    },
+    {
+      "time_min": 82.8,
+      "candidate_A": 11.909010591639463,
+      "candidate_B": 14.369222575744413,
+      "squared_separation_over_variance": 67.25158896370682
+    },
+    {
+      "time_min": 84.6,
+      "candidate_A": 11.841508537381483,
+      "candidate_B": 14.291280155596326,
+      "squared_separation_over_variance": 66.68201090456634
+    },
+    {
+      "time_min": 86.4,
+      "candidate_A": 11.776393335951349,
+      "candidate_B": 14.214728147759175,
+      "squared_separation_over_variance": 66.06085171637672
+    },
+    {
+      "time_min": 88.2,
+      "candidate_A": 11.713580588933574,
+      "candidate_B": 14.139541748712741,
+      "squared_separation_over_variance": 65.39208387507868
+    },
+    {
+      "time_min": 90.0,
+      "candidate_A": 11.652988882215865,
+      "candidate_B": 14.065696597405992,
+      "squared_separation_over_variance": 64.6795390993107
+    },
+    {
+      "time_min": 91.8,
+      "candidate_A": 11.59453968046505,
+      "candidate_B": 13.9931687673639,
+      "squared_separation_over_variance": 63.92690551685783
+    },
+    {
+      "time_min": 93.6,
+      "candidate_A": 11.538157225334293,
+      "candidate_B": 13.92193475893505,
+      "squared_separation_over_variance": 63.13772588555231
+    },
+    {
+      "time_min": 95.4,
+      "candidate_A": 11.483768437269658,
+      "candidate_B": 13.851971491677553,
+      "squared_separation_over_variance": 62.315396743409785
+    },
+    {
+      "time_min": 97.2,
+      "candidate_A": 11.431302820788797,
+      "candidate_B": 13.783256296880769,
+      "squared_separation_over_variance": 61.46316837445674
+    },
+    {
+      "time_min": 99.0,
+      "candidate_A": 11.380692373108928,
+      "candidate_B": 13.715766910220458,
+      "squared_separation_over_variance": 60.584145487406914
+    },
+    {
+      "time_min": 100.8,
+      "candidate_A": 11.331871496005705,
+      "candidate_B": 13.649481464544937,
+      "squared_separation_over_variance": 59.681288514138
+    },
+    {
+      "time_min": 102.6,
+      "candidate_A": 11.28477691078875,
+      "candidate_B": 13.584378482789939,
+      "squared_separation_over_variance": 58.75741544389265
+    },
+    {
+      "time_min": 104.4,
+      "candidate_A": 11.2393475762836,
+      "candidate_B": 13.520436871019847,
+      "squared_separation_over_variance": 57.815204117336705
+    },
+    {
+      "time_min": 106.2,
+      "candidate_A": 11.195524609713809,
+      "candidate_B": 13.457635911593078,
+      "squared_separation_over_variance": 56.85719491211024
+    },
+    {
+      "time_min": 108.0,
+      "candidate_A": 11.153251210380626,
+      "candidate_B": 13.39595525644939,
+      "squared_separation_over_variance": 55.885793758368976
+    },
+    {
+      "time_min": 109.8,
+      "candidate_A": 11.112472586041333,
+      "candidate_B": 13.335374920516932,
+      "squared_separation_over_variance": 54.90327542907852
+    },
+    {
+      "time_min": 111.6,
+      "candidate_A": 11.07313588189084,
+      "candidate_B": 13.275875275236896,
+      "squared_separation_over_variance": 53.91178705553943
+    },
+    {
+      "time_min": 113.4,
+      "candidate_A": 11.035190112054451,
+      "candidate_B": 13.217437042203702,
+      "squared_separation_over_variance": 52.91335182384256
+    },
+    {
+      "time_min": 115.2,
+      "candidate_A": 10.998586093503032,
+      "candidate_B": 13.160041286918624,
+      "squared_separation_over_variance": 51.90987281270257
+    },
+    {
+      "time_min": 117.0,
+      "candidate_A": 10.96327638230493,
+      "candidate_B": 13.10366941265485,
+      "squared_separation_over_variance": 50.90313693745021
+    },
+    {
+      "time_min": 118.8,
+      "candidate_A": 10.92921521213199,
+      "candidate_B": 13.048303154431968,
+      "squared_separation_over_variance": 49.89481896890176
+    },
+    {
+      "time_min": 120.6,
+      "candidate_A": 10.896358434939984,
+      "candidate_B": 12.993924573097967,
+      "squared_separation_over_variance": 48.88648559941107
+    },
+    {
+      "time_min": 122.4,
+      "candidate_A": 10.864663463746579,
+      "candidate_B": 12.940516049516784,
+      "squared_separation_over_variance": 47.87959953165385
+    },
+    {
+      "time_min": 124.2,
+      "candidate_A": 10.834089217432634,
+      "candidate_B": 12.888060278859557,
+      "squared_separation_over_variance": 46.87552356865823
+    },
+    {
+      "time_min": 126.0,
+      "candidate_A": 10.804596067495325,
+      "candidate_B": 12.836540264997705,
+      "squared_separation_over_variance": 45.875524686262125
+    },
+    {
+      "time_min": 127.8,
+      "candidate_A": 10.776145786684056,
+      "candidate_B": 12.785939314996032,
+      "squared_separation_over_variance": 44.88077807160778
+    },
+    {
+      "time_min": 129.6,
+      "candidate_A": 10.748701499452597,
+      "candidate_B": 12.736241033704081,
+      "squared_separation_over_variance": 43.892371113473395
+    },
+    {
+      "time_min": 131.4,
+      "candidate_A": 10.722227634163207,
+      "candidate_B": 12.687429318443943,
+      "squared_separation_over_variance": 42.911307332220446
+    },
+    {
+      "time_min": 133.2,
+      "candidate_A": 10.69668987698082,
+      "candidate_B": 12.639488353792869,
+      "squared_separation_over_variance": 41.93851023892465
+    },
+    {
+      "time_min": 135.0,
+      "candidate_A": 10.672055127397497,
+      "candidate_B": 12.592402606458915,
+      "squared_separation_over_variance": 40.974827114861576
+    },
+    {
+      "time_min": 136.8,
+      "candidate_A": 10.64829145532956,
+      "candidate_B": 12.546156820248036,
+      "squared_separation_over_variance": 40.021032703968274
+    },
+    {
+      "time_min": 138.6,
+      "candidate_A": 10.625368059731708,
+      "candidate_B": 12.500736011120942,
+      "squared_separation_over_variance": 39.07783281219839
+    },
+    {
+      "time_min": 140.4,
+      "candidate_A": 10.603255228674566,
+      "candidate_B": 12.456125462338122,
+      "squared_separation_over_variance": 38.14586780884932
+    },
+    {
+      "time_min": 142.2,
+      "candidate_A": 10.581924300833862,
+      "candidate_B": 12.412310719691519,
+      "squared_separation_over_variance": 37.22571602598398
+    },
+    {
+      "time_min": 144.0,
+      "candidate_A": 10.561347628341338,
+      "candidate_B": 12.369277586821218,
+      "squared_separation_over_variance": 36.317897052989565
+    },
+    {
+      "time_min": 145.8,
+      "candidate_A": 10.541498540949242,
+      "candidate_B": 12.32701212061571,
+      "squared_separation_over_variance": 35.42287492414848
+    },
+    {
+      "time_min": 147.6,
+      "candidate_A": 10.52235131146196,
+      "candidate_B": 12.285500626694205,
+      "squared_separation_over_variance": 34.54106119782146
+    },
+    {
+      "time_min": 149.4,
+      "candidate_A": 10.50388112238996,
+      "candidate_B": 12.244729654969523,
+      "squared_separation_over_variance": 33.67281792649358
+    },
+    {
+      "time_min": 151.2,
+      "candidate_A": 10.486064033782856,
+      "candidate_B": 12.20468599529016,
+      "squared_separation_over_variance": 32.818460517502324
+    },
+    {
+      "time_min": 153.0,
+      "candidate_A": 10.468876952199885,
+      "candidate_B": 12.16535667316007,
+      "squared_separation_over_variance": 31.978260484768338
+    },
+    {
+      "time_min": 154.8,
+      "candidate_A": 10.45229760077757,
+      "candidate_B": 12.12672894553483,
+      "squared_separation_over_variance": 31.15244809228456
+    },
+    {
+      "time_min": 156.6,
+      "candidate_A": 10.436304490355786,
+      "candidate_B": 12.08879029669277,
+      "squared_separation_over_variance": 30.341214890502116
+    },
+    {
+      "time_min": 158.4,
+      "candidate_A": 10.420876891624811,
+      "candidate_B": 12.051528434179772,
+      "squared_separation_over_variance": 29.544716147076386
+    },
+    {
+      "time_min": 160.2,
+      "candidate_A": 10.405994808257223,
+      "candidate_B": 12.014931284826414,
+      "squared_separation_over_variance": 28.763073173720926
+    },
+    {
+      "time_min": 162.0,
+      "candidate_A": 10.39163895098987,
+      "candidate_B": 11.978986990836146,
+      "squared_separation_over_variance": 27.9963755511535
+    },
+    {
+      "time_min": 163.8,
+      "candidate_A": 10.377790712622291,
+      "candidate_B": 11.943683905943276,
+      "squared_separation_over_variance": 27.24468325432213
+    },
+    {
+      "time_min": 165.6,
+      "candidate_A": 10.364432143899165,
+      "candidate_B": 11.909010591639463,
+      "squared_separation_over_variance": 26.50802868026475
+    },
+    {
+      "time_min": 167.4,
+      "candidate_A": 10.351545930245575,
+      "candidate_B": 11.874955813467546,
+      "squared_separation_over_variance": 25.78641858109311
+    },
+    {
+      "time_min": 169.2,
+      "candidate_A": 10.339115369324889,
+      "candidate_B": 11.841508537381483,
+      "squared_separation_over_variance": 25.079835904701437
+    },
+    {
+      "time_min": 171.0,
+      "candidate_A": 10.327124349390198,
+      "candidate_B": 11.808657926171222,
+      "squared_separation_over_variance": 24.388241545884146
+    },
+    {
+      "time_min": 172.8,
+      "candidate_A": 10.315557328401237,
+      "candidate_B": 11.776393335951349,
+      "squared_separation_over_variance": 23.71157601061057
+    },
+    {
+      "time_min": 174.6,
+      "candidate_A": 10.304399313879719,
+      "candidate_B": 11.744704312712383,
+      "squared_separation_over_variance": 23.049760996248445
+    },
+    {
+      "time_min": 176.4,
+      "candidate_A": 10.293635843476993,
+      "candidate_B": 11.713580588933574,
+      "squared_separation_over_variance": 22.40270089055283
+    },
+    {
+      "time_min": 178.2,
+      "candidate_A": 10.283252966228812,
+      "candidate_B": 11.683012080256145,
+      "squared_separation_over_variance": 21.770284192250934
+    },
+    {
+      "time_min": 180.0,
+      "candidate_A": 10.273237224472926,
+      "candidate_B": 11.652988882215865,
+      "squared_separation_over_variance": 21.152384856048787
+    }
+  ],
+  "series": [
+    {
+      "name": "G=0.2, k=0.02",
+      "x": [
+        0.0,
+        1.8,
+        3.6,
+        5.4,
+        7.2,
+        9.0,
+        10.8,
+        12.6,
+        14.4,
+        16.2,
+        18.0,
+        19.8,
+        21.6,
+        23.4,
+        25.2,
+        27.0,
+        28.8,
+        30.6,
+        32.4,
+        34.2,
+        36.0,
+        37.8,
+        39.6,
+        41.4,
+        43.2,
+        45.0,
+        46.8,
+        48.6,
+        50.4,
+        52.2,
+        54.0,
+        55.8,
+        57.6,
+        59.4,
+        61.2,
+        63.0,
+        64.8,
+        66.6,
+        68.4,
+        70.2,
+        72.0,
+        73.8,
+        75.6,
+        77.4,
+        79.2,
+        81.0,
+        82.8,
+        84.6,
+        86.4,
+        88.2,
+        90.0,
+        91.8,
+        93.6,
+        95.4,
+        97.2,
+        99.0,
+        100.8,
+        102.6,
+        104.4,
+        106.2,
+        108.0,
+        109.8,
+        111.6,
+        113.4,
+        115.2,
+        117.0,
+        118.8,
+        120.6,
+        122.4,
+        124.2,
+        126.0,
+        127.8,
+        129.6,
+        131.4,
+        133.2,
+        135.0,
+        136.8,
+        138.6,
+        140.4,
+        142.2,
+        144.0,
+        145.8,
+        147.6,
+        149.4,
+        151.2,
+        153.0,
+        154.8,
+        156.6,
+        158.4,
+        160.2,
+        162.0,
+        163.8,
+        165.6,
+        167.4,
+        169.2,
+        171.0,
+        172.8,
+        174.6,
+        176.4,
+        178.2,
+        180.0
+      ],
+      "y": [
+        20.0,
+        19.64640293483123,
+        19.305308958112057,
+        18.97627596430435,
+        18.65887748059205,
+        18.35270211411272,
+        18.057353018734794,
+        17.77244738068946,
+        17.497615922390413,
+        17.232502423798422,
+        16.97676326071031,
+        16.730066959373865,
+        16.492093766851475,
+        16.26253523657556,
+        16.041093828558648,
+        15.827482523739896,
+        15.621424451968224,
+        15.422652533139832,
+        15.230909131025008,
+        15.045945719335512,
+        14.867522559599717,
+        14.695408390427993,
+        14.529380127765577,
+        14.369222575744413,
+        14.214728147759175,
+        14.065696597405992,
+        13.92193475893505,
+        13.783256296880769,
+        13.649481464544937,
+        13.520436871019847,
+        13.39595525644939,
+        13.275875275236896,
+        13.160041286918624,
+        13.048303154431968,
+        12.940516049516784,
+        12.836540264997705,
+        12.736241033704081,
+        12.639488353792869,
+        12.546156820248036,
+        12.456125462338122,
+        12.369277586821218,
+        12.285500626694205,
+        12.20468599529016,
+        12.12672894553483,
+        12.051528434179772,
+        11.978986990836146,
+        11.909010591639463,
+        11.841508537381483,
+        11.776393335951349,
+        11.713580588933574,
+        11.652988882215865,
+        11.59453968046505,
+        11.538157225334293,
+        11.483768437269658,
+        11.431302820788797,
+        11.380692373108928,
+        11.331871496005705,
+        11.28477691078875,
+        11.2393475762836,
+        11.195524609713809,
+        11.153251210380626,
+        11.112472586041333,
+        11.07313588189084,
+        11.035190112054451,
+        10.998586093503032,
+        10.96327638230493,
+        10.92921521213199,
+        10.896358434939984,
+        10.864663463746579,
+        10.834089217432634,
+        10.804596067495325,
+        10.776145786684056,
+        10.748701499452597,
+        10.722227634163207,
+        10.69668987698082,
+        10.672055127397497,
+        10.64829145532956,
+        10.625368059731708,
+        10.603255228674566,
+        10.581924300833862,
+        10.561347628341338,
+        10.541498540949242,
+        10.52235131146196,
+        10.50388112238996,
+        10.486064033782856,
+        10.468876952199885,
+        10.45229760077757,
+        10.436304490355786,
+        10.420876891624811,
+        10.405994808257223,
+        10.39163895098987,
+        10.377790712622291,
+        10.364432143899165,
+        10.351545930245575,
+        10.339115369324889,
+        10.327124349390198,
+        10.315557328401237,
+        10.304399313879719,
+        10.293635843476993,
+        10.283252966228812,
+        10.273237224472926
+      ],
+      "x_unit": "min",
+      "y_unit": "mmol/L"
+    },
+    {
+      "name": "G=0.1, k=0.01",
+      "x": [
+        0.0,
+        1.8,
+        3.6,
+        5.4,
+        7.2,
+        9.0,
+        10.8,
+        12.6,
+        14.4,
+        16.2,
+        18.0,
+        19.8,
+        21.6,
+        23.4,
+        25.2,
+        27.0,
+        28.8,
+        30.6,
+        32.4,
+        34.2,
+        36.0,
+        37.8,
+        39.6,
+        41.4,
+        43.2,
+        45.0,
+        46.8,
+        48.6,
+        50.4,
+        52.2,
+        54.0,
+        55.8,
+        57.6,
+        59.4,
+        61.2,
+        63.0,
+        64.8,
+        66.6,
+        68.4,
+        70.2,
+        72.0,
+        73.8,
+        75.6,
+        77.4,
+        79.2,
+        81.0,
+        82.8,
+        84.6,
+        86.4,
+        88.2,
+        90.0,
+        91.8,
+        93.6,
+        95.4,
+        97.2,
+        99.0,
+        100.8,
+        102.6,
+        104.4,
+        106.2,
+        108.0,
+        109.8,
+        111.6,
+        113.4,
+        115.2,
+        117.0,
+        118.8,
+        120.6,
+        122.4,
+        124.2,
+        126.0,
+        127.8,
+        129.6,
+        131.4,
+        133.2,
+        135.0,
+        136.8,
+        138.6,
+        140.4,
+        142.2,
+        144.0,
+        145.8,
+        147.6,
+        149.4,
+        151.2,
+        153.0,
+        154.8,
+        156.6,
+        158.4,
+        160.2,
+        162.0,
+        163.8,
+        165.6,
+        167.4,
+        169.2,
+        171.0,
+        172.8,
+        174.6,
+        176.4,
+        178.2,
+        180.0
+      ],
+      "y": [
+        20.0,
+        19.82161032358301,
+        19.64640293483123,
+        19.474321065017982,
+        19.305308958112057,
+        19.139311852712282,
+        18.97627596430435,
+        18.81614846783416,
+        18.65887748059205,
+        18.50441204540233,
+        18.35270211411272,
+        18.20369853137831,
+        18.057353018734794,
+        17.91361815895584,
+        17.77244738068946,
+        17.63379494336853,
+        17.497615922390413,
+        17.363866194561002,
+        17.232502423798422,
+        17.103482047091774,
+        16.97676326071031,
+        16.852305006658703,
+        16.730066959373865,
+        16.610009512659126,
+        16.492093766851475,
+        16.376281516217734,
+        16.26253523657556,
+        16.150818073135287,
+        16.041093828558648,
+        15.93332695123052,
+        15.827482523739896,
+        15.723526251566334,
+        15.621424451968224,
+        15.521144043069306,
+        15.422652533139832,
+        15.325918010068971,
+        15.230909131025008,
+        15.137595112299984,
+        15.045945719335512,
+        14.955931256926515,
+        14.867522559599717,
+        14.780690982163776,
+        14.695408390427993,
+        14.611647152086585,
+        14.529380127765577,
+        14.44858066222941,
+        14.369222575744413,
+        14.291280155596326,
+        14.214728147759175,
+        14.139541748712741,
+        14.065696597405992,
+        13.9931687673639,
+        13.92193475893505,
+        13.851971491677553,
+        13.783256296880769,
+        13.715766910220458,
+        13.649481464544937,
+        13.584378482789939,
+        13.520436871019847,
+        13.457635911593078,
+        13.39595525644939,
+        13.335374920516932,
+        13.275875275236896,
+        13.217437042203702,
+        13.160041286918624,
+        13.10366941265485,
+        13.048303154431968,
+        12.993924573097967,
+        12.940516049516784,
+        12.888060278859557,
+        12.836540264997705,
+        12.785939314996032,
+        12.736241033704081,
+        12.687429318443943,
+        12.639488353792869,
+        12.592402606458915,
+        12.546156820248036,
+        12.500736011120942,
+        12.456125462338122,
+        12.412310719691519,
+        12.369277586821218,
+        12.32701212061571,
+        12.285500626694205,
+        12.244729654969523,
+        12.20468599529016,
+        12.16535667316007,
+        12.12672894553483,
+        12.08879029669277,
+        12.051528434179772,
+        12.014931284826414,
+        11.978986990836146,
+        11.943683905943276,
+        11.909010591639463,
+        11.874955813467546,
+        11.841508537381483,
+        11.808657926171222,
+        11.776393335951349,
+        11.744704312712383,
+        11.713580588933574,
+        11.683012080256145,
+        11.652988882215865
+      ],
+      "x_unit": "min",
+      "y_unit": "mmol/L"
+    }
+  ],
+  "notes": [
+    "ODE: dC/dt = G - k C, C(0)=20 mmol/L. G has units mmol/L/min; k has units 1/min.",
+    "Both candidates have C*=10. A single equilibrium observation cannot identify G and k separately.",
+    "The design score assumes independent Gaussian observation noise with stated variance. It is not a clinical measurement schedule."
+  ],
+  "experiment": "identifiability",
+  "book_sections": [
+    "15.4",
+    "15.8",
+    "15.19"
+  ],
+  "parameters": {
+    "noise_sd": 0.3,
+    "horizon_min": 180.0
+  }
+}

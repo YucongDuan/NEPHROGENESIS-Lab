@@ -1,0 +1,9 @@
+{
+  "experiment": "identifiability",
+  "parameters": {
+    "noise_sd": 0.3,
+    "horizon_min": 180.0
+  },
+  "software_version": "1.0.0",
+  "code_digest": "08e5b63cebb46e0581a377f8add619cc02025f9487a17be0cdf0bc2ce73bc542"
+}

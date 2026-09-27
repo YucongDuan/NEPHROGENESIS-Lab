@@ -1,0 +1,290 @@
+[
+  {
+    "chapter": 1,
+    "title": "The kidney problem: maintaining an internal world",
+    "experiment": "balance",
+    "question": "Can a stable concentration conceal continuous exchange?",
+    "method": "Run an open one-compartment balance and inspect cumulative stock-flow residuals.",
+    "limitation": "Not a validated human renal digital twin.",
+    "book_sections": [
+      "1.2",
+      "1.5"
+    ],
+    "source_chapter_sha256": "8923bf603db8970279f394a11b049be2861c323f7edce8402a33e3d0da989244",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run balance with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 2,
+    "title": "Cosmic matter and nonequilibrium conditions",
+    "experiment": "physical-budget",
+    "question": "How does a rate become an energy cost, and which costs are omitted?",
+    "method": "Use a dimension-checked sodium/ATP coupling equation with declared stoichiometry.",
+    "limitation": "Excludes basal metabolism and unmodeled losses.",
+    "book_sections": [
+      "2.5",
+      "8.17"
+    ],
+    "source_chapter_sha256": "5970857dc81128c643ef5f84f58790f1017c20bb2cb5f1e733da78491e23d26c",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run physical-budget with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 3,
+    "title": "Boundaries, metabolism and inheritance",
+    "experiment": "membrane",
+    "question": "What does a boundary change when total solute is conserved?",
+    "method": "Compare exact two-compartment passive exchange trajectories with a conserved total.",
+    "limitation": "Fixed volumes; does not solve coupled osmosis or the origin of life.",
+    "book_sections": [
+      "3.2",
+      "3.17"
+    ],
+    "source_chapter_sha256": "aee53b599ea1b30a3abe16834b85def15dde2ef1edf01df1ff19247d26132ca1",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run membrane with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 4,
+    "title": "The transport cost of multicellularity",
+    "experiment": "geometry",
+    "question": "Why does increasing size change exchange constraints?",
+    "method": "Compute spherical area/volume and a conditional diffusion-time estimate across five radii.",
+    "limitation": "Geometry is an explanatory constraint, not a historical proof of organ inevitability.",
+    "book_sections": [
+      "4.1",
+      "4.16"
+    ],
+    "source_chapter_sha256": "a7e81a2ea8a902671e55c26df6d7cb3c6adca4758a116d16e1f4a2f83e13694d",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run geometry with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 5,
+    "title": "Ocean, fresh water and land: alternative histories",
+    "experiment": "habitats",
+    "question": "How does concentrating capacity change a hypothetical water budget?",
+    "method": "Calculate required excreted volume at three hypothetical osmolarity limits.",
+    "limitation": "Not measured species data or a reconstruction of evolutionary ancestry.",
+    "book_sections": [
+      "5.17",
+      "9.17"
+    ],
+    "source_chapter_sha256": "1c260102b113406617bb09f37158a21b1ff8895f2dfb409bdd79c72abdc96928",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run habitats with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 6,
+    "title": "Building a kidney: development and geometry",
+    "experiment": "branching",
+    "question": "Can increasing terminal count also increase network resistance?",
+    "method": "Combine symmetric cylindrical segment resistances and terminal area across branching depths.",
+    "limitation": "Terminal branches are not automatically functional nephrons.",
+    "book_sections": [
+      "6.16"
+    ],
+    "source_chapter_sha256": "87e5bec8d01e787656beefb0cee64d3ec7f1146f27c6156d942a3646b572a5c1",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run branching with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 7,
+    "title": "Filtration: selective openness",
+    "experiment": "filtration",
+    "question": "How are blood flow, plasma flow and filtration fraction related?",
+    "method": "Compute RPF and filtration fraction from explicit flow measurements and hematocrit.",
+    "limitation": "Conditional arithmetic, not an eGFR diagnostic service.",
+    "book_sections": [
+      "7.15"
+    ],
+    "source_chapter_sha256": "0741ee94dcb4e83a4741ba0e95ab4111fb8109f44ec55252f6e780bf110da68c",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run filtration with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 8,
+    "title": "Reabsorption and secretion: the energy account",
+    "experiment": "transport",
+    "question": "Can equal excretion hide different reabsorptive work?",
+    "method": "Hold excretion fixed while changing filtered load and calculate the resulting coupled power.",
+    "limitation": "Active fraction is assumed; no whole-organ calorimetry is claimed.",
+    "book_sections": [
+      "8.15",
+      "8.17",
+      "18.8"
+    ],
+    "source_chapter_sha256": "ff6c3d69bdd4f98a828cda563fc036de8256ce49195197eef2abe6e3a5d628b4",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run transport with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 9,
+    "title": "Concentration and dilution: water and spatial organization",
+    "experiment": "concentration",
+    "question": "What distinguishes free-water clearance from urine volume?",
+    "method": "Compute osmolar and free-water clearances with volumetric osmolarity units.",
+    "limitation": "Osmolality cannot be substituted without a justified conversion.",
+    "book_sections": [
+      "9.15"
+    ],
+    "source_chapter_sha256": "17446803111f94081624e91c65ac88264307cbb0284e66076f34107ce9f0ca40",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run concentration with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 10,
+    "title": "Acid-base balance and systemic functions",
+    "experiment": "acid",
+    "question": "Why is urine acidity alone insufficient to determine net acid excretion?",
+    "method": "Add ammonium and titratable acid and subtract urinary bicarbonate loss.",
+    "limitation": "Not a diagnostic or treatment recommendation.",
+    "book_sections": [
+      "10.15"
+    ],
+    "source_chapter_sha256": "352a73e84b9274b5b6445757ef97745c8665e2180699cf836b22c5416486c6ef",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run acid with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 11,
+    "title": "Sensing, control and DIKWP",
+    "experiment": "signal",
+    "question": "Can identical action budgets produce different outcomes because correspondence changes?",
+    "method": "Compare matched, fixed, shuffled, delayed, reversed and calibrated-remap policies on one sequence.",
+    "limitation": "Only action budgets are matched; total sensing/computation cost is not measured.",
+    "book_sections": [
+      "11.19",
+      "16.22",
+      "16.23"
+    ],
+    "source_chapter_sha256": "3ec45f4c217a095c8ff8f4762a257e7807f23d7c6631ca4324276c9f9681a86e",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run signal with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 12,
+    "title": "Time, memory and aging",
+    "experiment": "memory",
+    "question": "How does an explicitly retained history variable change a repeated response?",
+    "method": "Compare two identical challenge protocols with different assumed hidden-state histories.",
+    "limitation": "The latent state is assumed rather than identified from observations.",
+    "book_sections": [
+      "12.5",
+      "12.17",
+      "18.11"
+    ],
+    "source_chapter_sha256": "530aaac66d284e8eba9e80b20634c6f08b6a0880fcb3ce397caad7b532185472",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run memory with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 13,
+    "title": "Injury, disease and repair",
+    "experiment": "repair",
+    "question": "Can functional recovery outrun structural recovery?",
+    "method": "Compare explicitly chosen fast and slow exponential recovery modes.",
+    "limitation": "No empirical prognosis, repair mechanism or regeneration claim follows.",
+    "book_sections": [
+      "13.5",
+      "13.15"
+    ],
+    "source_chapter_sha256": "8b7a9e13c594c933a9c43fe6be2a1f23fb83fb0130133e3778bded2c1c1b2c84",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run repair with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 14,
+    "title": "Replacement, regeneration and the artificial kidney",
+    "experiment": "replacement",
+    "question": "Which functions remain uncovered by a hypothetical replacement design?",
+    "method": "Expose coverage of five functions without compressing them into a single score.",
+    "limitation": "Numbers describe an invented device, not an existing dialysis or transplant intervention.",
+    "book_sections": [
+      "14.17",
+      "18.14"
+    ],
+    "source_chapter_sha256": "d2214a620e4f8edb2110230872ca20f996f07b1644dab53cd05b2b36ae12246a",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run replacement with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 15,
+    "title": "Mathematics, causality and a computable kidney",
+    "experiment": "identifiability",
+    "question": "Which transient observation distinguishes equal-equilibrium mechanisms?",
+    "method": "Compare two exact one-compartment trajectories and maximize a declared noise-normalized separation.",
+    "limitation": "Choice is conditional on the candidate set and specified observation noise.",
+    "book_sections": [
+      "15.4",
+      "15.8",
+      "15.19"
+    ],
+    "source_chapter_sha256": "06ec90143e0f5631a42d312c688d697e4b30ea10602cb33bd7ff620a1f798900",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run identifiability with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 16,
+    "title": "Energy and information: two descriptions",
+    "experiment": "energy-information",
+    "question": "How must molar and per-particle energies be reconciled before comparison?",
+    "method": "Reproduce the Avogadro conversion and logical-erasure comparison with dimensional algebra.",
+    "limitation": "A dimensionless ratio is not a measured count of biologically processed bits.",
+    "book_sections": [
+      "16.12"
+    ],
+    "source_chapter_sha256": "6a6e5ff18b09dca262c40d7458f48e16e5d677345a508bf346f5d6a18f397f6c",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run energy-information with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 17,
+    "title": "Scales, boundaries and possible life",
+    "experiment": "scales",
+    "question": "What do conditional physical limits say, and what do they not say about an organ?",
+    "method": "Compute Planck scales, light travel time and an information bound within a declared weak-gravity range.",
+    "limitation": "Bounds do not establish spacetime discreteness or actual kidney memory capacity.",
+    "book_sections": [
+      "17.5",
+      "17.7",
+      "17.9"
+    ],
+    "source_chapter_sha256": "2f1c45f330172ad03e7093bc3c3a7c51e00f53d31a0fda615271b3c458e0e06a",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run scales with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  },
+  {
+    "chapter": 18,
+    "title": "Open theories, experiments and the ultimate question",
+    "experiment": "evidence",
+    "question": "What should change downstream when an assumption or source is withdrawn?",
+    "method": "Validate a typed evidence graph and propagate withdrawal through all dependent nodes.",
+    "limitation": "Logical validity does not establish source truth; the associated ablation is a designed software fixture.",
+    "book_sections": [
+      "18.13",
+      "18.20"
+    ],
+    "source_chapter_sha256": "eae6dee67eee862197770e21b40583647cd98d4ed8fdce4070fe289361958812",
+    "extension_status": "new_companion_experiment_grounded_in_book_questions; not a published experiment from the book",
+    "exercise": "Run evidence with defaults; change one declared parameter; preserve both receipts; report which assumption explains the difference.",
+    "falsification_task": "Identify an observation, unit mismatch or conservation failure that would invalidate the stated interpretation."
+  }
+]

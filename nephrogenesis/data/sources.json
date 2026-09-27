@@ -1,0 +1,38 @@
+[
+  {
+    "id": "BOOK",
+    "type": "user_provided_manuscript",
+    "title": "A Brief History of the Kidney",
+    "authors": [
+      "Yucong Duan",
+      "Zhongdao Wu"
+    ],
+    "locator": "See book_manifest.json and chapter section anchors",
+    "supports": "Problem framing, equations, evidence distinctions and laboratory questions",
+    "not_established": "Publisher acceptance; independent clinical validation."
+  },
+  {
+    "id": "NIST-SI",
+    "type": "official_reference",
+    "title": "The NIST Reference on Constants, Units, and Uncertainty",
+    "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "supports": "SI constants used in calculations; values also cross-checked against book math fixtures",
+    "access_date": "2026-09-26",
+    "adjustment": "2022 CODATA"
+  },
+  {
+    "id": "PYTHON-HTTP",
+    "type": "official_documentation",
+    "title": "http.server - HTTP servers",
+    "url": "https://docs.python.org/3/library/http.server.html",
+    "supports": "Local server implementation and explicit warning against production exposure",
+    "access_date": "2026-09-26"
+  },
+  {
+    "id": "SYNTHETIC",
+    "type": "new_implementation",
+    "title": "NEPHROGENESIS-Lab declared synthetic generators",
+    "locator": "nephrogenesis/experiments.py and docs/METHODS.md",
+    "supports": "Reproducible conditional computations; not empirical kidney evidence"
+  }
+]

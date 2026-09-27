@@ -1,0 +1,81 @@
+[
+  {
+    "repository": "YucongDuan/DIKWP-NephroCarePath-OS",
+    "reviewed": [
+      "README.md",
+      "complete root git tree"
+    ],
+    "tree_sha": "61048ab055ac1a072bd35d2f0b4cf68123611f83",
+    "observed_scope": "Hospital triage, treatment-preparation, follow-up and AI-governance prototype; explicitly advisory.",
+    "observed_layout": "Root tree contains LICENSE, README.md and a 59,900-byte application ZIP.",
+    "archive_blob_sha": "c260ba7a4eb340be7d19cc9917871bd26ff1f63d",
+    "comparison_limit": "Archived source was not retrieved or executed. No algorithmic defect or absent tests inside the ZIP is asserted.",
+    "extension": "Independent mechanism experiments with unit checks, cumulative conservation, and source-first tests; not a replacement clinical product.",
+    "url": "https://github.com/YucongDuan/DIKWP-NephroCarePath-OS",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  },
+  {
+    "repository": "YucongDuan/NEGENESIS-OMEGA",
+    "reviewed": [
+      "README.md"
+    ],
+    "observed_scope": "Entropy-accounted runtime and reconstructive memory; explicitly separates local order, global entropy and value.",
+    "comparison_limit": "Documentation-level review only; not a measured upstream runtime comparison.",
+    "extension": "Keep J, J/mol, mol/s, information ratios and normative constraints separate in executable budgets.",
+    "url": "https://github.com/YucongDuan/NEGENESIS-OMEGA",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  },
+  {
+    "repository": "YucongDuan/DIKWP-ProofLedger-OS",
+    "reviewed": [
+      "public README via GitHub webpage"
+    ],
+    "observed_scope": "Claim-evidence records and verification support; does not independently establish truth.",
+    "comparison_limit": "No internal source execution or performance benchmark.",
+    "extension": "Typed evidence dependencies, explicit synthetic/empirical separation, input contracts and transitive invalidation.",
+    "url": "https://github.com/YucongDuan/DIKWP-ProofLedger-OS",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  },
+  {
+    "repository": "YucongDuan/DIKWP-AgentTrace-OS",
+    "reviewed": [
+      "README.md"
+    ],
+    "observed_scope": "Hash-chained semantic tracing, incident timelines and replay packages; runnable source documented inside ZIP.",
+    "comparison_limit": "No claim that upstream cannot recompute; this delivery adds independently tested scientific re-execution.",
+    "extension": "Bind complete parameters, code/data digests and numerical results; verify and recompute one experiment from a sealed receipt.",
+    "url": "https://github.com/YucongDuan/DIKWP-AgentTrace-OS",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  },
+  {
+    "repository": "YucongDuan/DIKWP-PRAXIS-WorldLab-v1.0",
+    "reviewed": [
+      "README.md",
+      "complete root git tree"
+    ],
+    "tree_sha": "669a385c9a14e983c74448cf47cdc104c61e6a76",
+    "observed_scope": "Explicitly prioritizes independently reproducible missions and source-first expansion over repository count.",
+    "observed_layout": "Root contains README, LICENSE and a ZIP application package.",
+    "comparison_limit": "Archived implementation not executed; strategic guidance is taken from the README.",
+    "extension": "Deliver one reusable book-domain package with direct source, command-line interface, test suite and CI configuration.",
+    "url": "https://github.com/YucongDuan/DIKWP-PRAXIS-WorldLab-v1.0",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  },
+  {
+    "repository": "YucongDuan/DIKWP-SCALE-",
+    "reviewed": [
+      "README.md"
+    ],
+    "observed_scope": "Synthetic reference compute-allocation fabric, Pareto execution plans and explicit resource receipts.",
+    "comparison_limit": "No inspection of live cloud integration or real resource measurements; README explicitly identifies synthetic values.",
+    "extension": "Finite-horizon renal-budget Pareto screening without collapsing energy and maintenance constraints to one score.",
+    "url": "https://github.com/YucongDuan/DIKWP-SCALE-",
+    "review_date": "2026-09-26",
+    "level": "README/packaging contract, not a full source-code audit"
+  }
+]

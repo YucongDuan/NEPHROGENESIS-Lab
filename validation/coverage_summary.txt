@@ -1,0 +1,18 @@
+Name                           Stmts   Miss Branch BrPart  Cover
+----------------------------------------------------------------
+nephrogenesis/__init__.py          1      0      0      0   100%
+nephrogenesis/__main__.py          2      2      0      0     0%
+nephrogenesis/adapters.py          4      0      0      0   100%
+nephrogenesis/calculators.py      92      0     26      1    99%
+nephrogenesis/calibration.py      58      5     28      7    86%
+nephrogenesis/cli.py              60     60     22      0     0%
+nephrogenesis/common.py           63      3     26      2    94%
+nephrogenesis/dynamics.py         82      1     16      2    97%
+nephrogenesis/evidence.py         67      2     40      4    94%
+nephrogenesis/experiments.py     185      2     32      0    99%
+nephrogenesis/ledger.py           98      4     50     10    91%
+nephrogenesis/reporting.py        34     13     10      1    59%
+nephrogenesis/server.py           80      9     36      5    88%
+nephrogenesis/units.py            66      3     24      3    93%
+----------------------------------------------------------------
+TOTAL                            892    104    310     35    86%

@@ -1,0 +1,8 @@
+kind,node,role,status
+derived,question,P,active
+book,book-8.17,K,active
+synthetic,synthetic-flux,D,withdrawn
+derived,conversion,I,stale
+derived,calculation,K,stale
+derived,interpretation,W,stale
+derived,revised-question,P,stale

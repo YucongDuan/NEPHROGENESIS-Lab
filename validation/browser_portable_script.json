@@ -1,0 +1,134 @@
+{
+  "browser": "Chromium via Playwright, isolated DOM with actual Python engine bridge; HTTP separately covered by tests/test_interfaces.py",
+  "experiments": [
+    {
+      "experiment": "balance",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "physical-budget",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "membrane",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "geometry",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "habitats",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "branching",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "filtration",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "transport",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "concentration",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "acid",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "signal",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "memory",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "repair",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "replacement",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "identifiability",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "energy-information",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "scales",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "evidence",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "ablation",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "hypothesis",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "uncertainty",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "viability",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "dynamics",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "experiment": "calibration",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "all_passed": true,
+  "js_errors": [],
+  "chapter_cards": 18,
+  "chapter_15_opens": "identifiability",
+  "book_checks_message": "22 / 22 equation checks passed",
+  "mobile_horizontal_overflow": false,
+  "invalid_input_error_displayed": true,
+  "old_result_cleared_on_experiment_change": true,
+  "browser_download_path_not_automatically_persisted": true
+}

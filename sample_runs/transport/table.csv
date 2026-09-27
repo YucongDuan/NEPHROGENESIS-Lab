@@ -1,0 +1,3 @@
+coupled_power_W,excreted_mmol_min,filtered_mmol_min,reabsorbed_mmol_min,scenario
+1.3166666666666669,0.1,8.0,7.9,lower_filtered_load
+2.65,0.1,16.0,15.9,higher_filtered_load

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite this software version for computations; cite the book separately for its arguments."
+title: "NEPHROGENESIS-Lab: Energy-Information Kidney Science Workbench"
+version: 1.0.0
+date-released: 2026-09-26
+type: software
+authors:
+  - name: "NEPHROGENESIS-Lab contributors"
+license: Apache-2.0
+abstract: "A local-first, executable research companion to A Brief History of the Kidney by Yucong Duan and Zhongdao Wu. Models and examples are synthetic or conditional; no clinical validation is claimed."
+url: "https://yucongduan.github.io/NEPHROGENESIS-Lab/"
+repository-code: "https://github.com/YucongDuan/NEPHROGENESIS-Lab"

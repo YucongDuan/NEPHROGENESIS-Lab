@@ -1,0 +1,12 @@
+{
+  "installed_module": "/mnt/data/nephrogenesis_work/isolated_install/nephrogenesis/__init__.py",
+  "source_checkout_on_sys_path": false,
+  "catalog_entries": 24,
+  "calibration_passed": true,
+  "source_run_replay_passed": true,
+  "cli_verify_exit_code": 0,
+  "packaged_static_assets_present": true,
+  "final_static_asset_matches_source": true,
+  "network_dependencies_installed": false,
+  "wheel_sha256": "24a9de9fa23faa7ee09db98cedcfc7c9d14559e45784f48fec53bd756bdf20de"
+}
